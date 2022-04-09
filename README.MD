@@ -1,5 +1,5 @@
 # Introduction
-In Android, we will use the adb and fastboot tools in very much, so I summarized to use them effectively.
+In Android, we will use the adb and fastboot tools very much, so I summarized to use them effectively.
 
 # Abstract
 ## ADB
