@@ -41,7 +41,7 @@ With buffer is:
 
 `main`: View the main log buffer (default) does not contain system and crash log messages.
 
-`system`: View the kernel log buffer.
+`kernel`: View the kernel log buffer.
 
 `system`: View the system log buffer (default).
 
@@ -121,13 +121,13 @@ Kill package:
 
 `adb shell am kill [options] [package_name]`
 
-Enter device to test mode (to bypass setup wizard):
-
-`adb shell am broadcast -a com.google.android.clockwork.action.TEST_MODE`
-
 Options are:
 
 `--user` user_id | all | current: Specify user whose processes to kill; all users if not specified.
+
+Enter device to test mode (to bypass setup wizard):
+
+`adb shell am broadcast -a com.google.android.clockwork.action.TEST_MODE`
 
 # Package manager (pm)
 
