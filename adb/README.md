@@ -192,6 +192,14 @@ Examples:
 
 `adb shell dumpsys display | grep "mScreenState"`
 
+- Force system into idle mode:
+
+`adb shell dumpsys deviceidle force-idle`
+
+- Exit idle mode:
+
+`adb shell dumpsys deviceidle unforce`
+
 # Input events
 Get all events:
 
