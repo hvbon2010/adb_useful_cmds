@@ -229,3 +229,11 @@ Simulate text event:
 
 `adb shell input text 'text'`
 
+# Root access
+
+`adb root`
+
+# Rewrite for root folder
+
+`adb shell mount -o remount,rw /`
+
